@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>memory game</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Memory Game</h1>
+    </header>
+    <div class = "game" id="game">
+        <div class="control">
+            <div class = "board" id="memory_board"></div>
+            <button id="new-game-btn" onclick="restartGame()">New Game</button>
+        </div>
+        
+        <div class="timer">
+            <label id="minutes">00</label>
+            <label>:</label>
+            <label id="seconds">00</label>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p>🎉 Congrats! You solved the puzzle! 🎊</p>
+            <button onclick="restartGame()">Play Again</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>© 2025 Memory Game | Designed by Hashim Sobhi</p>
+    </footer>
+
+    <canvas id="fireworksCanvas"></canvas>
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>

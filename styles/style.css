@@ -1,0 +1,158 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    background-image: url('../pics/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.game{
+    margin:  0 auto;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.board tr td{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 70px;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+    background-color: rgb(252, 255, 225);
+}
+td::selection{
+    user-select: none;
+}
+.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.timer{
+    cursor: default;
+    font-family: 'Courier New', monospace; 
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; 
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 105px;
+    margin-top: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 150px;
+}
+#new-game-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(135deg, #4d86f1, #274b89); 
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+    margin-left: 10px;
+    outline: none;
+}
+
+#new-game-btn:hover {
+    background: linear-gradient(135deg, #2a5298, #1e3c72); 
+    transform: scale(1.05);
+}
+
+#new-game-btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.timer::selection{
+    user-select: none;
+}
+label::selection{
+    user-select: none;
+}
+.cell {
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transform: rotateY(0deg);
+    transition: transform 0.5s;
+}
+
+.flipped {
+    transform: rotateY(180deg);
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content button {
+    background-color: #3c94bc;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#fireworksCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; 
+}
