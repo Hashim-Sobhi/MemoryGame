@@ -9,7 +9,8 @@ A fun and interactive memory matching game built using JavaScript, HTML, and CSS
 ✅ Fireworks effect when you win 🎆
 
 📸 Demo
-(Add a screenshot or a GIF of your game in action)
+![image](https://github.com/user-attachments/assets/1b72821d-5b26-400b-a1f9-986a4b8255af)
+
 
 🎯 How to Play
 Click on a card to reveal an emoji
