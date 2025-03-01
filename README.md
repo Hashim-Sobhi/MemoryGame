@@ -22,7 +22,7 @@ CSS
 JavaScript
 
 🔧 How to Run Locally
-Clone the repository: git clone https://github.com/yourusername/memory-game.git
+Clone the repository: git clone https://github.com/Hashim-Sobhi/memory-game.git
 Open index.html in your browser
 
 💡 Future Improvements
