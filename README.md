@@ -26,7 +26,7 @@ JavaScript
 
 🔧 How to Run Locally
 Clone the repository: git clone https://github.com/Hashim-Sobhi/MemoryGame.git
-Open index.html in your browser
+Open memory-game.html in your browser
 
 💡 Future Improvements
 Add different difficulty levels
